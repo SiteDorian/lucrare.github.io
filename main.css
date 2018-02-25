@@ -1,0 +1,71 @@
+body {
+    background-image: url("background_1.jpg");
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.wrapper{
+	margin: 5%;
+}
+
+.text{
+	float: left;
+	display: block;
+	width: 30%;
+	margin: 1%;
+	border: 1px solid black;
+	background-color: #00004d;
+}
+
+.row{
+	text-align: center;
+	align-items: center;
+	margin-bottom: 5%;
+}
+
+.back{
+	align-items: left;
+	text-align: left;
+}
+
+.rezult{
+	border: 5px solid red;
+}
+
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+Footer {
+display:block;
+position: absolute;
+bottom: 0;
+width: 99%;
+height: 50px;
+text-align: center;
+}
+
+.titlu{
+	color: red;
+}
+
